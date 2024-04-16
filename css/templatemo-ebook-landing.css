@@ -622,13 +622,17 @@ strong {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  /*background-image: url('../images/businessman-sitting-by-table-cafe.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+}
+
+.camisa 1 {
+background-image: url('../images/businessman-sitting-by-table-cafe.jpg') !important;
 }
 
 .custom-block::after {
